@@ -4,38 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>Adrian's and Ali's Portfolio</title>
+    <title>ibrahim's and Shaheda's Portfolio</title>
 </head>
 <body>
-    <a class="logo"> <img src="My Logo.png"></a>
-    
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg fixed-top navbarScroll bg-white">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="My Logo.png" alt="logo"></a>
+        <div class="navbar-toggler" role="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><img src="images/mobile/NavMenu.svg" alt="menu-icon"></span>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-      <section class="head">
-        <div class="headline">
-            <h1 class="title">I'm Shaheda <br>Glad to see you!
-            </h1>
-
-        <p class="paragraph">I'm a software developer! I can help you build a product , 
-            feature or website Look through some of my work and experience! 
-            If you like what you see and have a project you need coded, don't hestiate to contact me.
-        </p>
-        <p class="line">LET'S CONNECT</p>
+<div class="p-5 bg-white" id="hero-header" >
+        <h1 class="display-4">We are ibrahim and Shaheda<br>Glad to see you!</h1>
+        <p class="lead">We are software developers! We can help you build a product , feature or website Look through some of our work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact us.</p>
+        <p>LET'S CONNECT</p>
+</div>
+<
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
